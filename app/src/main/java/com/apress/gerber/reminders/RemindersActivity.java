@@ -14,7 +14,7 @@ ListView mListView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reminders);
         mListView=(ListView) findViewById(R.id.reminders_list_view);
-        ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this,R.layout.reminders_row,R.id.row_text,
+        ArrayAdapter<String> arrayAdapter=new ArrayAdapter<>(this,R.layout.reminders_row,R.id.row_text,
                 new String[]{"fist record","second record","third record"});
         mListView.setAdapter(arrayAdapter);
     }
