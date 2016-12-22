@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/string_new_reminder"
+          android:id="@+id/action_new "
+          app:showAsAction="never"
+         />
+    <item android:title="@string/string_exit"
+          android:id="@+id/action_exit"
+          app:showAsAction="never"
+         />
+</menu>

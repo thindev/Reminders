@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Reminders</string>
     <string name="strings_reminder_text">Reminder Text</string>
+    <string name="string_new_reminder">New Reminder</string>
+    <string name="string_exit">Exit</string>
 
 
 </resources>
