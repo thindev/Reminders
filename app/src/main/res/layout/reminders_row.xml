@@ -13,6 +13,7 @@
         tools:ignore="UselessParent">
 
         <View
+            class="android.view.View"
             android:layout_width="10dp"
             android:layout_height="match_parent"
             android:id="@+id/row_tab"
@@ -25,7 +26,22 @@
             android:id="@+id/row_text"
             android:layout_weight="1"
             android:textSize="18sp"
-            android:gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@color/white"/>
+
     </LinearLayout>
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
+
 </LinearLayout>
