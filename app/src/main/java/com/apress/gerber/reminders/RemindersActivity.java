@@ -8,14 +8,6 @@ public class RemindersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        doSomething();
-        
-        
         setContentView(R.layout.activity_reminders);
-        System.out.println("dsfsddsf");
-    }
-
-    private void doSomething() {
     }
 }
